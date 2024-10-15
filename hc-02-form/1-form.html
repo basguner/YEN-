@@ -135,13 +135,31 @@
 <form action="./img/result.html">
     <div>
         <label for="ad">Adınız:</label>
-        <input type="text" id="ad" name="ad">
+        <input type="text" id="ad" name="ad" placeholder="Adınız">
     </div>
     <div>
 
         <label for="soyad">soyad</label>
-        <input type="text" id="soyad" name="soyad">
+        <input type="text" id="soyad" name="soyad" >
     </div>
+
+
+    <div>
+
+        <label for="email">E-mail</label>
+        <input type="email" name="E-mail" id="email" required />
+    </div>
+    <div>
+
+        <label for="sifre">Şifre</label>
+        <input type="password" name="Sifre" ad="Şifre" />
+    </div>
+    <div>
+        <label for="tel">Telefon</label>
+        <input type="tel" name="Telefon" id="tel"
+          pattern="[0-9] {3}-[0-9] {3}-[0-9] {2}"
+        >
+          </div>
 
 
 <input type="submit" value="kaydet">
