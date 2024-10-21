@@ -1,0 +1,33 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+   background-color: blue;
+   padding:5rem ;
+   text-align: center;
+   text-decoration: none;
+ 
+  
+}
+nav a{
+    padding: 5rem;
+}
+header  {
+background-image: url(./background_720.jpg);
+
+     margin: -80;
+ height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 2rem;
+    color: darkblue;
+    text-align: center;
+    align-content: center;
+    text-shadow:2px 2px white ;
+
+
+}
+  
