@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #d9afd9;
+  background-image: linear-gradient();
+  padding: 1rem;
+}
+header a img{
+    width: 60px;
+}
+header .sing-in{
+
+ float: right;
+ /* padding-top: 2rem;
+ padding-right: 0.5rem; */
+
+}
+header .sing-in a{
+    color: red;
+    text-decoration: none;
+}
+header .sticky {
+    background-color: #FAD961;
+    background-image: linear-gradient(90 deg,#FAD961 0%, #F76B1C 100%);
+    padding: 2rem;
+    text-align: center;
+    position: stick
+    top: 0;
+    z-index: 2; 
+} 
+ header .sticky a{
+  text-align: center;
+  margin: 8px;
+  padding: 5px;
+ }
+ nav .banner{
+  position: relative;
+ }
+ nav .banner .hero {
+
+ position: absolute
+
+  top: 40%;
+  left:10%
+
+
+ }
+ 
+  
+ nav .hero{
+  position: absolute;
+  top:40%
+  left:40%
+
+ }

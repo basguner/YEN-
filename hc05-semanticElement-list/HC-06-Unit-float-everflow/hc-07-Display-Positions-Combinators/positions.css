@@ -1,0 +1,36 @@
+main{
+    background-color: rgb(87, 154, 187, 0.698);
+    width: 90½;
+    margin: 50px auto;
+    position: relative;
+}
+
+box1{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    /* position: static;
+    top: 50px;
+    left: 250px;
+} */
+box2{
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    /* position: relative;
+    top: 10px;
+    left: 20px; */
+}
+box3{
+    background-color: fuchsia;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+box4{
+    background-color: teal;
+    width: 100px;
+    height: 100px;
+}
