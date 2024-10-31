@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Judson:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EFEFEF;
+    font-family: "Josefin Slab", serif;
+    font-family: "Bellota", system-ui;
+    font-family: "Judson", serif;
+}
+
+.container{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: 50px auto;
+    border-radius: 1.5rem;
+    box-shadow: 5px 5px 10px black;
+}
+
+/*! ICONBAR */
+
+.iconbar{
+    /* border: 2px solid red; */
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.input-part{
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 15px;
+    margin: 1rem;
+}
+
+.select-category select{
+    width: 188px;
+    height: 40px;
+    background-color: #D9D9D9;
+    font-family: "Bellota", system-ui;
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+.search-input{
+    width: 300px;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    height: 40px;
+    margin-left: 1rem;
+    overflow: hidden;
+
+}
+.search-input input{
+    font-size: 1,5rem;
+    background-color: #D9D9D9;
+
+}
+.search-input input:focus{
+    outline: none;
+}
+.icons{
+    border: 2px solid blue;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content:center;
+
+}
+.support{
+    text-align: right;
+    margin-left: 1rem;
+
+}
+
+
+.support-number{
+    font-size: 2rem;
+
+}
+
+
+.support-text{
+    font-size: 1rem;
+}
+
+
+
