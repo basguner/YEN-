@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #21d4fd;
+    background-image: linear-gradient(19deg,#142aee 0%,#b721ff 100%);
+    height: 100vh;
+    padding: 10px;
+}
+.bg-image{
+    background-image: url(./img/img_1_720.png);
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    background-size: cover;
+    box-shadow:  5px 5px 10px black;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+.ground{
+    background-image: url(./img/img_02_720.png);
+    width: 100%;
+    height: 150px;
+}
