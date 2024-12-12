@@ -24,4 +24,4 @@ function showScreen(data) {
 
   console.log(
     document.querySelectorAll(("img"))
-  )
+  )#E1E1E1
